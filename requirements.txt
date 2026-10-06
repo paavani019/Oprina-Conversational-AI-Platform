@@ -1,0 +1,50 @@
+# =============================================================================
+# OPRINA API - SIMPLE REQUIREMENTS (No Version Pinning)
+# =============================================================================
+# Let pip resolve all versions automatically
+
+# Core Web Framework
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+
+# Database & Supabase
+supabase
+asyncpg
+SQLAlchemy
+
+# Authentication & Security
+python-jose
+passlib
+bcrypt
+cryptography
+python-multipart
+
+# Validation & Email
+email-validator
+
+# Logging & Scheduling (MISSING!)
+structlog
+schedule 
+
+# Google Cloud Services
+google-cloud-aiplatform
+google-cloud-speech
+google-cloud-texttospeech
+google-auth
+google-auth-oauthlib
+
+# Logging & Scheduling (MISSING!)
+structlog
+schedule 
+
+# HTTP Clients
+httpx
+aiohttp
+requests
+
+# Utilities
+python-dotenv
+pydub
+aiofiles
