@@ -48,20 +48,16 @@ Go to https://www.oprinaai.com to see Oprina live.
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
-## Oprina Architecture
-
-![Architecture Diagram](docs/images/Oprina_Architecture_Diagram.drawio.png)
-
 Oprina consists of five main components working together to deliver a seamless conversational AI experience:
 
 ### Backend API
-FastAPI-based service that handles REST endpoints, user authentication, avatar session management, and integration with external services like Google Cloud AI and HeyGen APIs. 📖 [See Backend README](./backend/README.md)
+FastAPI-based service that handles REST endpoints, user authentication, avatar session management, and integration with external services like Google Cloud AI and HeyGen APIs. 
 
 ### Frontend
-React/TypeScript application providing a responsive web interface with real-time avatar streaming, voice controls, chat interface, user settings, and dashboard functionality. 📖 [See Frontend README](./frontend/README.md)
+React/TypeScript application providing a responsive web interface with real-time avatar streaming, voice controls, chat interface, user settings, and dashboard functionality. 📖
 
 ### Oprina Agent
-AI-powered agent system built on Google's Agent Development Kit (ADK) featuring multimodal Gemini 2.0 Flash model, specialized email and calendar sub-agents, voice-optimized conversation flows, and comprehensive tool integration for Gmail and Google Calendar operations.📖 [See Oprina README](./oprina/README.md)
+AI-powered agent system built on Google's Agent Development Kit (ADK) featuring multimodal Gemini 2.0 Flash model, specialized email and calendar sub-agents, voice-optimized conversation flows, and comprehensive tool integration for Gmail and Google Calendar operations.📖
 
 ### Vertex Deployment
 Google Cloud Vertex AI deployment infrastructure for scalable agent hosting, session management, and production-ready AI model serving with enterprise-grade security and performance. 📖 [See Veterx Deployment README](./vertex-deployment/README.md)
