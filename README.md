@@ -6,7 +6,7 @@
 
 </div>
 
-![Oprina Screenshot](docs/images/Homescreen.png)
+![Oprina Screenshot]
 
 
 ## Overview
