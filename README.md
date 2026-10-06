@@ -60,10 +60,9 @@ React/TypeScript application providing a responsive web interface with real-time
 AI-powered agent system built on Google's Agent Development Kit (ADK) featuring multimodal Gemini 2.0 Flash model, specialized email and calendar sub-agents, voice-optimized conversation flows, and comprehensive tool integration for Gmail and Google Calendar operations.📖
 
 ### Vertex Deployment
-Google Cloud Vertex AI deployment infrastructure for scalable agent hosting, session management, and production-ready AI model serving with enterprise-grade security and performance. 📖 [See Veterx Deployment README](./vertex-deployment/README.md)
-
+Google Cloud Vertex AI deployment infrastructure for scalable agent hosting, session management, and production-ready AI model serving with enterprise-grade security and performance. 📖 
 ### Supabase Database
-PostgreSQL database with real-time capabilities handling user management, conversation history, session state, avatar usage tracking, contact form submissions, and authentication workflows. 📖 [See Supabase README](./supabase/README.md)
+PostgreSQL database with real-time capabilities handling user management, conversation history, session state, avatar usage tracking, contact form submissions, and authentication workflows. 📖 
 
 ## Run Locally / Self-Hosting
 
@@ -80,41 +79,6 @@ Both guides include:
 - Troubleshooting tips
 - Security considerations
 
-## Acknowledgements
-
-### Contributors
-
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/rohith4444">
-            <img src="docs/images/Rohith profile pic.jpg" width="100px;" alt="Rohith Reddy Mandala"/>
-            <br />
-            <sub><b>Rohith Reddy Mandala</b></sub>
-        </a>
-        <br />
-        <sub>Project Creator & Lead Developer</sub>
-    </td>
-  <td align="center">
-        <a href="https://github.com/abharathkumarr">
-            <img src="https://github.com/abharathkumarr.png" width="100px;" alt="Bharath Kumar"/>
-            <br />
-            <sub><b>Bharath Kumar</b></sub>
-        </a>
-        <br />
-        <sub>Developer</sub>
-    </td>
-    <td align="center">
-        <a href="https://github.com/calvinhoang203">
-            <img src="docs/images/Hieu_Professional_Photo.jpg" width="100px;" alt="Hieu Hoang (Calvin)"/>
-            <br />
-            <sub><b>Hieu Hoang (Calvin)</b></sub>
-        </a>
-        <br />
-        <sub>Developer</sub>
-    </td>
-</tr>
-</table>
 
 ### Technologies
 - [Google Cloud AI Platform](https://cloud.google.com/ai-platform) - AI model hosting and Vertex AI
